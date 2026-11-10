@@ -1,0 +1,395 @@
+
+/* =================================
+   VIVALDO PANGUILA
+   IDENTIDADE VISUAL DO SITE
+================================= */
+
+:root {
+  --dark: #101827;
+  --dark-light: #1c293b;
+  --gold: #d6aa50;
+  --white: #ffffff;
+  --background: #f2f4f8;
+  --text: #344054;
+  --muted: #8490a0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.8;
+}
+
+/* CABEÇALHO */
+
+.hero {
+  min-height: 390px;
+  background:
+    radial-gradient(circle at 80% 20%, #31435d, transparent 40%),
+    linear-gradient(135deg, #101827, #1c293b);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.eyebrow {
+  color: var(--gold);
+  letter-spacing: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: clamp(34px, 8vw, 65px);
+  line-height: 1.2;
+  margin: 22px 0 12px;
+  letter-spacing: 2px;
+}
+
+.hero h1 span {
+  color: var(--gold);
+}
+
+.hero p {
+  color: #d5dce7;
+  font-size: 17px;
+}
+
+.hero .location {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* BOTÃO */
+
+.hero-button {
+  display: inline-block;
+  background: var(--gold);
+  color: #101827;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 25px;
+  transition: .3s;
+}
+
+.hero-button:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
+/* MENU */
+
+.navbar {
+  background: var(--dark-light);
+  padding: 13px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 3px 12px #0002;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--gold);
+  background: #ffffff12;
+}
+
+/* CONTEÚDO */
+
+.container {
+  width: 92%;
+  max-width: 950px;
+  margin: 35px auto;
+}
+
+.card {
+  background: var(--white);
+  padding: 30px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  border: 1px solid #e8ebf0;
+  box-shadow: 0 5px 20px #18283c08;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px #18283c12;
+}
+
+.section-number {
+  display: block;
+  color: #b58a38;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+}
+
+.card h2 {
+  color: var(--dark);
+  font-size: 23px;
+  border-left: 4px solid var(--gold);
+  padding-left: 13px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #233c5b;
+  margin: 17px 0 5px;
+}
+
+.card p {
+  margin-bottom: 13px;
+  font-size: 15px;
+}
+
+/* DADOS PESSOAIS */
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.info-grid div {
+  background: #f6f8fb;
+  padding: 14px;
+  border-radius: 7px;
+  border-left: 3px solid var(--gold);
+}
+
+.info-grid small {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.info-grid strong {
+  color: var(--dark);
+  font-size: 14px;
+}
+
+/* FORMAÇÃO */
+
+.timeline {
+  border-left: 2px solid #e3c27e;
+  padding-left: 22px;
+  margin-left: 7px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: var(--gold);
+  border-radius: 50%;
+  left: -29px;
+  top: 10px;
+}
+
+.timeline-item h3 {
+  margin-top: 0;
+}
+
+/* COMPETÊNCIAS */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #edf1f7;
+  color: #263b55;
+  border: 1px solid #e1e7ef;
+  padding: 9px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.skills span:hover {
+  background: var(--dark);
+  color: white;
+}
+
+/* LISTAS */
+
+.detail-list {
+  padding-left: 22px;
+}
+
+.detail-list li {
+  margin-bottom: 9px;
+}
+
+/* CONTACTOS */
+
+.contact-details {
+  background: #f6f8fb;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.contact-details a:not(.hero-button) {
+  color: #245b91;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contact-details .hero-button {
+  margin-top: 12px;
+}
+
+/* BOTÃO VOLTAR AO TOPO */
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--dark);
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 3px 12px #0003;
+}
+
+#topButton.show {
+  display: block;
+}
+
+/* RODAPÉ */
+
+footer {
+  background: var(--dark);
+  color: #bdc7d5;
+  text-align: center;
+  padding: 38px 15px;
+}
+
+footer h2 {
+  color: white;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* ANIMAÇÕES */
+
+.card {
+  animation: appear .7s ease both;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* TELEMÓVEIS */
+
+@media(max-width: 600px) {
+
+  .hero {
+    min-height: 340px;
+    padding: 50px 15px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .eyebrow {
+    letter-spacing: 3px;
+  }
+
+  .navbar {
+    gap: 3px;
+  }
+
+  .navbar a {
+    font-size: 11px;
+    padding: 7px;
+  }
+
+  .container {
+    width: 94%;
+    margin: 20px auto;
+  }
+
+  .card {
+    padding: 20px;
+    margin-bottom: 17px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills {
+    gap: 7px;
+  }
+
+  .skills span {
+    font-size: 12px;
+    padding: 7px 11px;
+  }
+}

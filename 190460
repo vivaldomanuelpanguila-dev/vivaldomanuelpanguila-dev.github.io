@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Perfil pessoal e profissional de Vivaldo Manuel Panguila.">
+
+  <title>Vivaldo Panguila | Perfil Profissional</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">PORTFÓLIO PROFISSIONAL</span>
+      <h1>VIVALDO <span>PANGUILA</span></h1>
+      <p>Técnico de Eletricidade e Eletrónica</p>
+      <p class="location">Luanda, Angola</p>
+      <a href="#sobre" class="hero-button">Conhecer o meu percurso</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#competencias">Competências</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#contactos">Contactos</a>
+  </nav>
+
+  <main class="container">
+
+    <section class="card" id="sobre">
+      <span class="section-number">01 / APRESENTAÇÃO</span>
+      <h2>Sobre mim</h2>
+      <p>
+        Chamo-me <strong>Vivaldo Manuel Panguila</strong>,
+        sou residente em Luanda, Angola, e tenho formação
+        profissional na área de eletricidade e eletrónica.
+      </p>
+      <p>
+        Sou interessado em tecnologia, inovação, informática
+        e desenvolvimento de novas competências.
+        Tenho conhecimentos práticos de manutenção,
+        diagnóstico e reparação de equipamentos elétricos
+        e eletrónicos.
+      </p>
+      <p>
+        Acredito na disciplina, responsabilidade,
+        dedicação e aprendizagem contínua como pilares
+        fundamentais do crescimento profissional.
+      </p>
+    </section>
+
+    <section class="card" id="dados">
+      <span class="section-number">02 / IDENTIFICAÇÃO</span>
+      <h2>Dados pessoais</h2>
+      <div class="info-grid">
+        <div><small>Nome completo</small><strong>Vivaldo Manuel Panguila</strong></div>
+        <div><small>Nome profissional</small><strong>Vivaldo Panguila</strong></div>
+        <div><small>País</small><strong>Angola</strong></div>
+        <div><small>Residência</small><strong>Luanda</strong></div>
+        <div><small>Área profissional</small><strong>Eletricidade e Eletrónica</strong></div>
+      </div>
+    </section>
+
+    <section class="card" id="formacao">
+      <span class="section-number">03 / QUALIFICAÇÕES</span>
+      <h2>Formação profissional</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Eletricidade e Eletrónica</h3>
+          <p>Formação profissional concluída, com conhecimentos teóricos e práticos.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Certificação Darmak — 2024</h3>
+          <p>Certificação na área técnica.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Desempenho de excelência</h3>
+          <p>Melhor formando, com classificação final de <strong>20 valores</strong>.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Informática e tecnologia</h3>
+          <p>Aprendizagem contínua de ferramentas digitais e programação.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="competencias">
+      <span class="section-number">04 / CAPACIDADES</span>
+      <h2>Competências técnicas</h2>
+
+      <div class="skills">
+        <span>Eletricidade</span>
+        <span>Eletrónica</span>
+        <span>Manutenção</span>
+        <span>Diagnóstico técnico</span>
+        <span>Reparação de telemóveis</span>
+        <span>Reparação de televisores</span>
+        <span>Equipamentos de áudio</span>
+        <span>Iluminação</span>
+        <span>Informática</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </section>
+
+    <section class="card" id="experiencia">
+      <span class="section-number">05 / PRÁTICA PROFISSIONAL</span>
+      <h2>Experiência e conhecimentos práticos</h2>
+      <p>
+        Conhecimentos desenvolvidos através de atividades
+        técnicas de eletricidade e reparação de equipamentos.
+      </p>
+      <ul class="detail-list">
+        <li>Identificação de avarias.</li>
+        <li>Diagnóstico de problemas técnicos.</li>
+        <li>Reparação de dispositivos eletrónicos.</li>
+        <li>Manutenção de equipamentos.</li>
+        <li>Resolução de problemas elétricos e eletrónicos.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="objetivos">
+      <span class="section-number">06 / FUTURO</span>
+      <h2>Objetivos profissionais</h2>
+      <p>
+        Continuar a desenvolver capacidades técnicas,
+        adquirir novas qualificações e participar em
+        projetos que contribuam para o crescimento
+        profissional e tecnológico.
+      </p>
+      <p>
+        Pretendo explorar novas oportunidades nas áreas
+        de eletricidade, eletrónica, informática e tecnologia.
+      </p>
+    </section>
+
+ 
+<section class="card" id="contactos">
+  <span class="section-number">07 / COMUNICAÇÃO</span>
+  <h2>Contactos</h2>
+
+  <p>Estou disponível para oportunidades profissionais, parcerias e contactos.</p>
+
+  <div class="contact-details">
+    <p><strong>Nome:</strong> Vivaldo Manuel Panguila</p>
+    <p><strong>Localização:</strong> Luanda, Angola</p>
+
+    <p><strong>Telefone:</strong>
+      <a href="tel:+244974100137">+244 974 100 137</a>
+    </p>
+
+    <p><strong>Email:</strong>
+      <a href="mailto:vivaldomauelpanguila@gmail.com">
+        vivaldomauelpanguila@gmail.com
+      </a>
+    </p>
+
+    <a class="hero-button" href="https://wa.me/244974100137">
+      Contactar pelo WhatsApp
+    </a>
+      </div>
+    </section>
+
+  </main>
+
+  <button id="topButton" aria-label="Voltar ao topo">↑</button>
+
+  <footer>
+    <h2>VIVALDO PANGUILA</h2>
+    <p>Perfil pessoal e profissional</p>
+    <p>Luanda · Angola</p>
+    <p>© <span id="year"></span> Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
